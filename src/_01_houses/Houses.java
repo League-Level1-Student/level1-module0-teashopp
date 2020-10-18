@@ -45,7 +45,7 @@ public class Houses {
 	}
 
 	public void mediumhouse() {
-		rob.setPenColor(255,0,0);
+		rob.setPenColor(255,255,0);
 		rob.move(120);
 		rob.turn(90);
 		rob.move(30);
@@ -54,7 +54,7 @@ public class Houses {
 	}
 	
 	public void largehouse() {
-		rob.setPenColor(255,0,0);
+		rob.setPenColor(255,0,255);
 		rob.move(250);
 		rob.turn(90);
 		rob.move(30);
@@ -63,7 +63,7 @@ public class Houses {
 	}
 	
 	public void grass() {
-		rob.setPenColor(0,0,255);
+		rob.setPenColor(0,255,0);
 		rob.turn(270);
 		rob.move(30);
 		rob.turn(270);
